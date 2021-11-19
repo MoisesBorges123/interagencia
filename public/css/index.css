@@ -1,0 +1,36 @@
+.wave{
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    top: 126px;
+}
+.btn-primary-gradient2{
+    -webkit-appearance: none;            
+    background: linear-gradient(50deg, rgb(158, 199, 69) 25%, rgb(60, 86, 57)) !important;            
+       
+   }
+   
+   .btn-primary-gradient2:hover{
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+        
+    }
+    @-webkit-keyframes gradient{
+       from{background-position: 0%};
+        to {background-position: 100%} 
+        
+    }
+    @keyframes gradient{
+       from{background-position: 0%};
+        to {background-position: 100%} 
+        
+    }    
+    #capa{
+        background: radial-gradient(circle at 221%, rgb(4, 4, 0), rgb(4, 4, 0) 30%, rgb(60, 86, 57) 25%, 30deg rgb(158, 199, 69) 75%) !important;
+    }   
