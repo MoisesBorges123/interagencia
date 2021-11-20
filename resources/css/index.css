@@ -1,3 +1,27 @@
+#content-4{
+    background:#fff;
+    margin-top: 3rem;
+}
+#content-4 .section-heading-5{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+#content-4 .text-green-dark p {
+    font-size: 15px !important;
+
+}
+#content-4 .text-green-dark{
+    text-align: center;
+}
+#area3{
+    background-size: 100% 100%;
+    min-height: 30rem;
+    
+}
+#area3 .content{
+    margin-top: 10rem;
+    text-align: right;
+}
 .wave{
     vertical-align: middle;
     float: left;
@@ -27,5 +51,6 @@
         
     }    
     #capa{
-        background: radial-gradient(circle at 221%, rgb(4, 4, 0), rgb(4, 4, 0) 30%, rgb(60, 86, 57) 25%, 30deg rgb(158, 199, 69) 75%) !important;
+        background-size: 100% 60%;
+        background: radial-gradient(circle at 80% 17%, rgb(129, 135, 2), rgb(55, 62, 0) 25%, rgb(4, 4, 0) 85%) !important;
     }   

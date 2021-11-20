@@ -118,12 +118,12 @@
               </header>
               <!-- navbar- -->
               <!-- Hero Area -->
-              <div style='background-color:#3d4600;'   class="hero-area-l11 position-relative z-index-1 overflow-hidden">
+              <div id='capa'   class="hero-area-l11 position-relative z-index-1 overflow-hidden">
                 <div class="container position-relative">
                   <div class="row position-relative justify-content-center">
                     <div class="col-xl-10 col-lg-10 col-md-12 order-lg-1 order-1" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
                       <div class="content text-center">
-                        <h3 class='text-white'>Soluções digitais para o seu negócio</h3>
+                        <h3 class='text-white mt-7'>Soluções digitais para o seu negócio</h3>
                         <div class="row justify-content-center">
                           <div class="col-xl-10 col-lg-10 col-md-12 text-center">
                             <span class='text-white'>Alinhamos inovação e tecnologia para otimizar os resultados</span>
@@ -168,188 +168,146 @@
                 </div>
               </div>
               <!-- Content Area-1 -->
-              <div class="content-area-l-11-1">
-                <div class="container">
-                  <div class="row align-items-center justify-content-lg-start justify-content-center">
-                    <div class="col-xl-6 col-md-5 col-md-10" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-                      <div class="content-img position-relative z-index-1">
-                        <img src="image/l2/content-img1.png" alt="" class="w-100">
-                      </div>
-                    </div>
-                    <div class="offset-xxl-1 col-xxl-5 col-xl-6 col-lg-7 col-md-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-                      <div class="content section-heading-5">
-                        <h2>
-                          Build Beautiful Landing Pages Faster.
-                        </h2>
-                        <p>Create custom landing pages with Shades that convert more visitors than any website, no coding
-                          required.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
               <!-- Content Area-2  -->
-              <div class="content-area-l-11-2">
+              <div class="content-area-l-11-2  justify-center align-items-center">
                 <div class="container">
                   <div class="row align-items-center justify-content-lg-between justify-content-center">
-                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div class="col-xl-6 col-xl-6 col-lg-6 col-md-6 order-lg-1  order-1 pl-7" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
                       <div class="content section-heading-5">
-                        <h2>
-                          Completely Free for Everyone.
-                        </h2>
-                        <div class="d-flex content-l-11-3-card">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="27" viewBox="0 0 32 27">
-                            <g>
-                              <g>
-                                <g>
-                                  <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M25.528 25.615v0h5.47v0-5.911c0-.56-.341-1.062-.86-1.27l-5.118-2.05a1.367 1.367 0 0 1-.86-1.267v-1.2a5.445 5.445 0 0 0 2.735-4.711V6.471a5.47 5.47 0 0 0-8.205-4.738">
-                                  </path>
-                                </g>
-                                <g>
-                                  <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M19.367 19.846l-5.14-2.036a1.358 1.358 0 0 1-.864-1.257v-1.192a5.394 5.394 0 0 0 2.747-4.676V7.97c0-2.999-2.46-5.43-5.495-5.43-3.034 0-5.494 2.431-5.494 5.43v2.715a5.394 5.394 0 0 0 2.747 4.676v1.192c0 .555-.342 1.054-.864 1.26l-5.14 2.036c-.52.206-.863.703-.864 1.257v4.51h19.23v0-4.51c0-.555-.342-1.054-.863-1.26z">
-                                  </path>
-                                </g>
-                              </g>
-                            </g>
-                          </svg>
-                          <div class="content-body">
-                            <h5>Easy setup process</h5>
-                            <p>Editing and customizing Essential Landing is easy and fast.</p>
+                        <div class="d-flex content-l-11-3-card card-1 justify-content-center align-items-center">                          
+                          <div class="content-body ">
+                              <img src="{{URL::asset('image/system/icons/clock.png')}}" alt="icon">                            
                           </div>
                         </div>
-                        <div class="d-flex content-l-11-3-card">
-                          <img src="image/l2/settings.svg" alt="icon">
-                          <div class="content-body">
-                            <h5>Built for real users</h5>
-                            <p>Editing and customizing Essential Landing is easy and fast.</p>
-                          </div>
-                        </div>
-                      </div>
+                      </div>                     
                     </div>
-                    <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-                      <div class="content-img">
-                        <img src="image/l2/content-img2.png" alt="" class="w-lg-auto w-100">
-                      </div>
+                    <div class="col-xl-6 col-xl-6 col-lg-6 col-md-6 order-lg-1  order-1 pr-7" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                        <div class="content section-heading-5">
+                            <div class="d-flex content-l-11-3-card card-1 justify-content-center align-items-center">                          
+                                <div class="content-body ">
+                                    <img src="{{URL::asset('image/system/icons/segurando-a-chave.png')}}" alt="icon">                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-xl-6 col-lg-6 col-md-6 order-lg-1  order-1 pl-7" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                        <div class="content section-heading-5">
+                            <div class="d-flex content-l-11-3-card card-1 justify-content-center align-items-center">                          
+                                <div class="content-body ">
+                                    <img src="{{URL::asset('image/system/icons/smartphone.png')}}" alt="icon">                            
+                                </div>
+                            </div>
+                        </div>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- Content Area -->
-              <div class="content-area-l-11-3 position-relative">
+              <div class="content-area-l-11-3 position-relative" id='area3' style='background-image:url("{{URL::asset('image/system/background/person-typing2.png')}}")'>
                 <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-lg-start">
-                    <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                      <div class="content-img">
-                        <img src="image/l2/content-img3.png" alt="" class="w-100">
-                      </div>
-                    </div>
-                    <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                      <div class="content section-heading-5">
-                        <h2>Completely Free for Everyone.</h2>
-                        <p>Event is not like most tech conferences. We want our presentations to engage the audience, spark
-                          discussion and inspire new ideas. </p>
-                        <ul class="list-unstyled pl-0">
-                          <li class="d-flex align-items-center">
-                            <i class="fas fa-check"></i>Unlimited design possibility
-                          </li>
-                          <li class="d-flex align-items-center">
-                            <i class="fas fa-check"></i>Completely responsive
-                          </li>
-                          <li class="d-flex align-items-center">
-                            <i class="fas fa-check"></i>Easy to customize
-                          </li>
-                        </ul>
+                    
+                    <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1 justify-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                      <div class="content section-heading-5">                      
+                        <p class='text-white'>A Interagência é para você que quer
+                            digitalizar a gestão do seu negócio para
+                            escalonar suas vendas e melhorar o seu
+                            atendimento.</p>
+                       
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+              
               <!-- Feature Area -->
-              <div class="feature-l-11">
+              <div  id='content-4'>
                 <div class="container">
                   <div class="row justify-content-center">
                     <div class="col-xl-9 px-lg-12 col-md-12">
                       <div class="row justify-content-center">
                         <div class="col-lg-10 text-center">
                           <div class="section-heading-5">
-                            <h2>
-                              One Software, Every Solution
-                            </h2>
-                            <p>We designed and tested prototypes that helped identify pain points in the account
-                              creation process. Together, we shaped the new standard.</p>
+                            <h3>
+                              <b>O que fazemos</b>
+                            </h3>                            
                           </div>
                         </div>
                       </div>
                       <div class="row feature-l-11-items justify-content-center">
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-                          <div class="d-flex ">
-                            <div class="icon-box">
-                              <i class="icon icon-pen-01"></i>
-                            </div>
-                            <div class="content-body">
-                              <h5>Easy to Use</h5>
-                              <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                                development teams.</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
-                          <div class="d-flex ">
-                            <div class="icon-box">
-                              <i class="icon icon-layers-3"></i>
-                            </div>
-                            <div class="content-body">
-                              <h5>300+ Blocks</h5>
-                              <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                                development teams.</p>
+                        <div class="col-md-4" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                          <div class="d-flex ">                            
+                            <div class="content-body">                                
+                                <div class='text-center h3 text-green-dark'>
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                                <h5 class='text-green-dark'>Aplicativos</h5>
+                                <p class='text-green-dark'>Ágeis, acessíveis e práticos. Aplicativos é o que
+                                há de mais moderno no acesso e conectividade
+                                com cliente</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                          <div class="d-flex ">
-                            <div class="icon-box">
-                              <i class="icon icon-office"></i>
-                            </div>
+                        <div class="col-md-4" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                          <div class="d-flex ">                           
                             <div class="content-body">
-                              <h5>100% Responsive</h5>
-                              <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                                development teams.</p>
+                                <div class='text-center h3 text-green-dark'>
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                                <h5 class='text-green-dark'>Sistema de Cobranças</h5>
+                                <p class='text-green-dark'>Pagamentos, gestão de boletos e de assinaturas
+                                    num único clique.
+                                </p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                          <div class="d-flex ">
-                            <div class="icon-box">
-                              <i class="icon icon-book-open-2"></i>
-                            </div>
+                        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                          <div class="d-flex ">                            
                             <div class="content-body">
-                              <h5>Rich Documentation</h5>
-                              <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                                development teams.</p>
+                                <div class='text-center h3 text-green-dark'>
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                              <h5 class='text-green-dark'>Tecnologia para gestão acadêmica</h5>
+                              <p class='text-green-dark'>At eripuit signiferumque sea, vel ad mucius
+                                molestie, cu labitur iuvaret vulputate sed.
+                                </p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
-                          <div class="d-flex ">
-                            <div class="icon-box">
-                              <i class="icon icon-pen-01"></i>
-                            </div>
+                        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                          <div class="d-flex ">                            
                             <div class="content-body">
-                              <h5>50+ Ready Pages</h5>
-                              <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                                development teams.</p>
+                                <div class='text-center h3 text-green-dark'>
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                              <h5 class='text-green-dark'>Gestão de Hospitais</h5>
+                              <p class='text-green-dark'>At eripuit signiferumque sea, vel ad mucius
+                                molestie, cu labitur iuvaret vulputate sed.</p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
-                          <div class="d-flex ">
-                            <div class="icon-box">
-                              <i class="icon icon-settings-gear-64-2"></i>
-                            </div>
+                        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
+                          <div class="d-flex ">                            
                             <div class="content-body">
-                              <h5>Quick Setup</h5>
-                              <p>Whether it’s a small internal app or a new for millions of customers, our design and
-                                development teams.</p>
+                                <div class='text-center h3 text-green-dark'>
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                              <h5 class='text-green-dark'>Prontuário eletrônico</h5>
+                              <p class='text-green-dark'>At eripuit signiferumque sea, vel ad mucius
+                                molestie, cu labitur iuvaret vulputate sed.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+                          <div class="d-flex ">                            
+                            <div class="content-body">
+                                <div class='text-center h3 text-green-dark'>
+                                    <i class="fas fa-mobile"></i>
+                                </div>
+                              <h5 class='text-green-dark'>Sistemas sob demandas</h5>
+                              <p class='text-green-dark'>Uma solução sob medida para aquilo que você
+                                precisa!</p>
                             </div>
                           </div>
                         </div>
@@ -358,7 +316,7 @@
                   </div>
                 </div>
               </div>
-              <!-- Testimonial Section -->
+              <!-- Testimonial Section  41 76 39-->
               <div class="testimonial-area-l-11">
                 <div class="container">
                   <div class="row justify-content-center">
